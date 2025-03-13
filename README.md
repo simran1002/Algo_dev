@@ -20,7 +20,7 @@ This allows reusing previous results without re-executing the same request.
 
 - *Backend:* Node.js with Express.js  
 - *Language:* TypeScript  
-- *Database (Logging):* MongoDB (or File-based JSON storage)  
+- *Database (Logging):* MongoDB  
 - *Containerization (Optional):* Docker  
 
 ---
