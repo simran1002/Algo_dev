@@ -1,0 +1,6 @@
+{"algorithm":"Binary Search","executionTime":"0.01ms","input":{"inputArr":[10,9,8,7,6,5,4],"target":5},"level":"info","message":"Binary Search Algorithm Execution","output":-1}
+{"algorithm":"Binary Search","executionTime":"0.01ms","input":{"inputArr":[10,9,8,7,6,5,4],"target":5},"level":"info","message":"Binary Search Algorithm Execution","output":-1}
+{"algorithm":"Binary Search","executionTime":"0.01ms","input":{"inputArr":[4,5,6,7,8,9,10],"target":5},"level":"info","message":"Binary Search Algorithm Execution","output":1}
+{"algorithm":"Binary Search","executionTime":"0.00ms","input":{"inputArr":[1,2,3,4,5,6,7,8,9,10],"target":5},"level":"info","message":"Binary Search Algorithm Execution","output":4}
+{"algorithm":"Quick Sort","executionTime":"607.09ms","input":{"inputArr":[10,9,8,7,6,5,4,3,2,1]},"level":"info","message":"Quick Sort Algorithm Execution","output":[1,2,3,4,5,6,7,8,9,10]}
+{"algorithm":"Breadth-First Search","executionTime":"0.02ms","input":{"graph":{"A":["B","C"],"B":["D","E"],"C":["F"],"D":[],"E":["F"],"F":[]},"start":"A"},"level":"info","message":"BFS Algorithm Execution","output":["A","B","C","D","E","F"]}
