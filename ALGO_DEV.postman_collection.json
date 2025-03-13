@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "20ac2cd8-f7b5-4d1c-b127-38d15f76341e",
+		"_postman_id": "89189029-02d0-4c45-8175-890b28da753c",
 		"name": "ALGO_DEV",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24274037"
+		"_exporter_id": "24106690"
 	},
 	"item": [
 		{
@@ -36,12 +36,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/binary-search",
-					"protocol": "http",
+					"raw": "https://algo-dev.onrender.com/api/binary-search",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algo-dev",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"binary-search"
@@ -49,7 +50,104 @@
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Binary Search",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"inputArr\":[1,2,3,4,5,6,7,8,9,10], \n    \"target\":5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://algo-dev.onrender.com/api/binary-search",
+							"protocol": "https",
+							"host": [
+								"algo-dev",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"binary-search"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 13 Mar 2025 16:21:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"64-AuxWEEKukxa3VnHJ4ZvriPyox4c\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "9523679a-4622-4a4e"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "91fcdd3b3d2833de-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": 4,\n    \"timeComplexity\": \"O(log n)\",\n    \"spaceComplexity\": \"O(1)\",\n    \"executionTime\": 0.0062599778175354\n}"
+				}
+			]
 		},
 		{
 			"name": "Quick Sort",
@@ -81,12 +179,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/quick-sort",
-					"protocol": "http",
+					"raw": "https://algo-dev.onrender.com/api/quick-sort",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algo-dev",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"quick-sort"
@@ -94,7 +193,104 @@
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Quick Sort",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"inputArr\":[10,9,8,7,6,5,4,3,2,1]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://algo-dev.onrender.com/api/quick-sort",
+							"protocol": "https",
+							"host": [
+								"algo-dev",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"quick-sort"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 13 Mar 2025 16:21:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "98"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"7b-mpvUuUiENExk1pjNwLWI4QaUZ8o\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "61220997-47bb-417c"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "91fcdd98bd0133de-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        1,\n        2,\n        3,\n        4,\n        5,\n        6,\n        7,\n        8,\n        9,\n        10\n    ],\n    \"timeComplexity\": \"O(n log n)\",\n    \"spaceComplexity\": \"O(n)\",\n    \"executionTime\": 1905.1740300059319\n}"
+				}
+			]
 		},
 		{
 			"name": "BFS",
@@ -118,7 +314,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"graph\":\"\",\n    \"start\":\"\",\n}",
+					"raw": "{\n    \"graph\":{ \"A\": [\"B\", \"C\"], \"B\": [\"A\", \"D\", \"E\"], \"C\": [\"A\", \"F\"], \"D\": [\"B\"], \"E\": [\"B\", \"F\"], \"F\": [\"C\", \"E\"] },\n    \"start\":\"A\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -126,12 +322,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/bfs",
-					"protocol": "http",
+					"raw": "https://algo-dev.onrender.com/api/bfs",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algo-dev",
+						"onrender",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"bfs"
@@ -139,7 +336,104 @@
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
 			},
-			"response": []
+			"response": [
+				{
+					"name": "BFS",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"graph\":{ \"A\": [\"B\", \"C\"], \"B\": [\"A\", \"D\", \"E\"], \"C\": [\"A\", \"F\"], \"D\": [\"B\"], \"E\": [\"B\", \"F\"], \"F\": [\"C\", \"E\"] },\n    \"start\":\"A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://algo-dev.onrender.com/api/bfs",
+							"protocol": "https",
+							"host": [
+								"algo-dev",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"bfs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 13 Mar 2025 16:22:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "96"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"7e-0Jj1ISROitPQNyg0gcRllfklenE\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "3ad1248a-bb12-4f88"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "91fcdedcffb633de-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        \"A\",\n        \"B\",\n        \"C\",\n        \"D\",\n        \"E\",\n        \"F\"\n    ],\n    \"timeComplexity\": \"O(V + E)\",\n    \"spaceComplexity\": \"O(V)\",\n    \"executionTime\": 0.016799986362457275\n}"
+				}
+			]
 		}
 	],
 	"event": [
